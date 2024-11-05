@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Dolma's Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f5a9b8, #fbc2e0, #ffebf7);
+            background-size: 200% 200%;
+            animation: moveBackground 10s linear infinite;
+        }
+
+        /* Text container styling */
+        .container {
+            text-align: center;
+            color: #ff4081;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        /* Text styling */
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 500;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .note {
+            font-size: 1em;
+            font-style: italic;
+            color: #ff80ab;
+        }
+
+        /* Background animation keyframes */
+        @keyframes moveBackground {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HI! This is DOLMA TShering Lama</h1>
+        <p>NICE TO MEET YOU!</p>
+        <p class="note">WORK IN progress...</p>
+    </div>
+</body>
+</html>
